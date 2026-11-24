@@ -2,10 +2,43 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="了解 PPT 中心的 DSH 插件如何组织项目、批次和四阶段演示制作。">
   <title>DSH 插件 · PPT 中心</title><link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <header class="top shell"><a class="brand" href="./"><span class="mark" aria-hidden="true"></span>PPT 中心</a><nav aria-label="主导航"><a href="./#demo">演示</a></nav></header>
-  <main class="shell doc"><h1>DSH 插件</h1><p>插件将 PPT 中心接入 DSH 桌面端，提供项目管理、批次和角色会话入口。</p><h2>当前兼容性</h2><p>现有桌面集成在 Windows、DSH 0.2.2-rc.3 和匹配的 PPT 中心 0.8.6 运行包上验证。公开安装包须先通过新环境安装验证。</p><h2>现在可以使用</h2><p><a href="assets/PPT-Studio-Player.html" download>下载独立播放器</a>，或下载 <a href="assets/engagement-demo.studio.zip" download>Studio 示例项目</a>。</p></main>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="top shell"><a class="brand" href="./"><span class="mark" aria-hidden="true"></span>PPT 中心</a><nav aria-label="主导航"><a href="./#demo">在线演示</a><a href="#compatibility">兼容性</a></nav></header>
+  <main id="main" class="shell">
+    <section class="hero plugin-hero" aria-labelledby="plugin-title">
+      <div class="intro">
+        <p class="label">Windows 桌面集成</p>
+        <h1 id="plugin-title">DSH 插件</h1>
+        <p class="lead">适合在 DSH 里制作多页汇报。把材料、生成进度和可编辑成果归到同一个项目，制作过程中也能查看各阶段产出。</p>
+        <div class="actions"><a class="primary" href="#compatibility">查看兼容性 <span aria-hidden="true">↓</span></a><a class="secondary" href="./#demo">先看演示</a></div>
+      </div>
+      <section class="workflow" aria-labelledby="workflow-title">
+        <h2 id="workflow-title">一页内容如何完成</h2>
+        <ol>
+          <li><strong>规划</strong><span>梳理重点，分配页面空间</span></li>
+          <li><strong>构造</strong><span>生成可编辑的文字、图表与卡片</span></li>
+          <li><strong>精修</strong><span>预览整页，按需调整卡片内部</span></li>
+          <li><strong>风格</strong><span>应用统一配色、材质与视觉层次</span></li>
+        </ol>
+      </section>
+    </section>
+    <section class="section-space" aria-labelledby="plugin-usage">
+      <div class="section-head"><h2 id="plugin-usage">什么时候用得上？</h2></div>
+      <div class="formats">
+        <article><h3>多页内容一起制作</h3><p>把逐页材料放入同一项目，用批次执行，并在桌面端跟踪进度。</p></article>
+        <article><h3>检查阶段成果</h3><p>从分区图到风格预览，按阶段查看输出。需要人工调整时，可以进入 Studio 编辑。</p></article>
+        <article><h3>统一交付</h3><p>项目中心整理页序和页面类型，并导出用于修改的项目包和用于放映的 HTML。</p></article>
+      </div>
+    </section>
+    <section id="compatibility" class="compat section-space" aria-labelledby="compat-title">
+      <div><h2 id="compat-title">兼容性与发布状态</h2><p>桌面集成已在 Windows、DSH 0.2.2-rc.3 与匹配的 PPT 中心 0.8.6 运行包上验证。公开安装包仍待新环境验收。</p></div>
+      <div><h3>现在可以试用</h3><p>直接浏览示例，或下载可编辑项目与离线播放器。</p><a href="./#tools">查看可用下载 ↗</a></div>
+    </section>
+  </main>
+  <footer class="shell"><a href="./">返回 PPT 中心</a><a href="https://github.com/JHChen6393/ppt-center">GitHub 项目仓库 ↗</a></footer>
 </body>
 </html>
