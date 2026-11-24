@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PPT 中心将材料转化为可编辑的网页演示。在线体验 Engagement 风格、原生卡片与液态转场。">
+  <meta name="theme-color" content="#f3efe6">
+  <title>PPT 中心 · 网页演示工作台</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="top shell">
+    <a class="brand" href="./" aria-label="PPT 中心首页"><span class="mark" aria-hidden="true"></span>PPT 中心</a>
+    <nav aria-label="主导航"><a href="#demo">演示</a><a href="#tools">获取工具</a></nav>
+  </header>
+  <main id="main" class="shell">
+    <section class="hero" aria-labelledby="title">
+      <div class="intro">
+        <p class="label">网页演示工作台</p>
+        <h1 id="title">从材料到<br><span>可编辑的演示。</span></h1>
+        <p class="lead">按内容组织画面。用模块化卡片承载文字、数据和图形，再统一整套演示的风格与转场。</p>
+        <div class="actions"><a class="primary" href="#demo">观看示例 <span aria-hidden="true">↗</span></a><a class="secondary" href="assets/engagement-demo.studio.zip" download>下载可编辑示例</a></div>
+      </div>
+      <section id="demo" class="demo" aria-label="Engagement 示例演示">
+        <div class="demo-head"><span class="light" aria-hidden="true"></span><span>Engagement</span><span class="sample">校园微气候观测</span></div>
+        <div class="screen" id="screen">
+          <iframe id="deck" src="assets/engagement-demo.deck.html" title="校园微气候观测 · 双页演示" allowfullscreen></iframe>
+        </div>
+        <div class="demo-foot">
+          <span id="page-number" aria-live="polite">01 / 02</span>
+          <div class="controls"><button id="prev" type="button" aria-label="上一页" disabled>←</button><button id="next" type="button" aria-label="下一页">→</button></div>
+          <a href="assets/engagement-demo.deck.html">独立放映 ↗</a>
+        </div>
+      </section>
+    </section>
+    <section id="tools" class="downloads" aria-labelledby="tools-title">
+      <h2 id="tools-title">用自己的方式打开</h2>
+      <div class="formats">
+        <article><h3>离线播放器</h3><p>在浏览器里打开本地项目包，支持键盘翻页。</p><a href="assets/PPT-Studio-Player.html" download>下载播放器 <span aria-hidden="true">↓</span></a></article>
+        <article><h3>可编辑项目</h3><p>用 PPT Studio 打开示例，查看页面与卡片结构。</p><a href="assets/engagement-demo.studio.zip" download>下载 Studio 项目 <span aria-hidden="true">↓</span></a></article>
+        <article><h3>DSH 插件</h3><p>将项目管理和四阶段制作流程接入 DSH 桌面端。</p><a href="dsh.html">查看兼容性与安装说明 <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="shell"><span>PPT 中心</span><span>演示数据为虚构示例</span></footer>
+</body>
+</html>
