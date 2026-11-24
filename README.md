@@ -6,6 +6,13 @@
 
 ## 中文
 
+> **也许是最后一代幻灯片，也许是网页呈现的第一章。**
+>
+> **试试页序。**
+
+AI 让生成文字、图表与布局更容易，也让我们重新思考演示本身。网页可以承载线性讲述，也可以随着提问展开证据、切换视角和重组阅读路径。页序用可编辑的网页演示探索这一变化。
+
+
 **从研究材料、课件提纲或项目记录出发，做成可以继续编辑、统一视觉并离线放映的网页演示。**
 
 [在线体验 Engagement 示例](https://jhchen6393.github.io/ppt-center/) · [DSH 插件与兼容性](https://jhchen6393.github.io/ppt-center/dsh.html) · [下载可编辑示例](https://jhchen6393.github.io/ppt-center/assets/engagement-demo.studio.zip)
@@ -74,6 +81,13 @@ DSH 负责管理项目、批次状态和阶段交接。Agent 负责理解材料�
 ---
 
 ## English
+
+> **The last generation of slides? The first chapter of web presentations?**
+>
+> **Try Yexu.**
+
+AI makes it easier to produce text, charts, and layouts. It also gives us a reason to rethink the presentation itself. A webpage can carry a linear story while leaving room to reveal evidence, change the view, or take a different path through the material. Yexu explores that space through editable web presentations.
+
 
 **Yexu turns research notes, teaching outlines, and project updates into editable browser presentations.** You can revise individual cards in Studio and keep a separate HTML copy for offline playback.
 
