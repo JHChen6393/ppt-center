@@ -8,19 +8,16 @@
 .request textarea{display:block;resize:vertical;min-height:145px;line-height:1.55}
 .fields{margin-block:20px;display:grid;grid-template-columns:1fr 1.1fr;gap:17px}
 .request small{display:block;color:var(--muted);font-size:13px;line-height:1.55;margin-top:5px}
-.checkout,.receipt{background:#152e42;color:#f1f5f7;border-radius:5px;padding:16px 18px}
-.checkout{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.checkout p{margin:0;font-size:19px;font-weight:680}
-.checkout small{color:#cfdee7}.checkout .preview-note{color:#e5c69e}
-.checkout button{color:#173447;background:#f0eee8;border-color:#f0eee8;white-space:nowrap}
-.checkout button:disabled{opacity:.62;cursor:wait}
-.checkout button:not(:disabled):hover{background:#fff}
 #feedback{color:#8b341f;margin:12px 0 0}#feedback:empty{display:none}
-.receipt output{font-weight:700;overflow-wrap:anywhere}.receipt p{color:#cfdde5}
 @media(max-width:720px){.request.shell{width:calc(100% - 34px);grid-template-columns:1fr;padding-top:32px}.request h1{margin:12px 0}.request .label{margin-top:0}.request .lead{max-width:40ch}}
 @media(max-width:400px){.fields{grid-template-columns:1fr}}
-.receipt .copy{display:block;margin-top:13px;padding:7px 11px;color:#f1f5f7;background:transparent;border:1px solid #d1e0ea70;border-radius:4px}
-.receipt #copy-status:empty{display:none}
-@media(max-width:400px){.checkout{align-items:stretch;flex-direction:column}.checkout button{justify-content:center}.checkout p{font-size:17px}}
-@media(min-width:640px){.fields{grid-template-columns:1fr .78fr 1.25fr}}
-@media(min-width:401px) and (max-width:639px){.fields>div:last-child{grid-column:1/-1}}
+.receipt{background:#152e42;color:#f1f5f7;border-radius:5px;padding:24px}
+.receipt h2{margin:0 0 10px}
+.receipt p{color:#dce7ed;margin:0;line-height:1.6}
+.optional{color:var(--muted);font-size:12px;font-weight:400;margin-inline-start:4px}
+.payment-choice{margin-bottom:22px}
+.submit-row{display:flex;justify-content:flex-end}
+.submit-row button{cursor:pointer}
+.submit-row button:disabled{opacity:.66;cursor:wait}
+.request .order-privacy{margin-top:14px}
+@media(max-width:400px){.submit-row button{width:100%;justify-content:center}}
