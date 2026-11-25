@@ -72,10 +72,12 @@ DSH 负责管理项目、批次状态和阶段交接。Agent 负责理解材料�
 
 ### 当前交付范围
 
+[下载 0.8.6 Windows 测试版及完整流水线源码](https://github.com/JHChen6393/ppt-center/releases/tag/v0.8.6-beta.1)。页序自有代码采用 PolyForm Noncommercial 1.0.0。
+
 | 组件 | 状态 |
 | --- | --- |
 | **展示站、独立播放器、可编辑示例** | 已公开，可直接体验。 |
-| **DSH 桌面集成** | 已在 Windows、DSH 0.2.2-rc.3 与配套 0.8.6 运行包核对角色加载。真实双页验收中有一页跑通并完成 Studio 回读，另有一页停在任务绑定。公开安装包待新环境验收。 |
+| **DSH 桌面集成** | 已在 Windows、DSH 0.2.2-rc.3 与配套 0.8.6 运行包核对角色加载。真实双页验收中有一页跑通并完成 Studio 回读，另有一页停在任务绑定。已提供含运行文件、配置模板和安装脚本的 Windows 测试版，跨机器表现欢迎反馈。 |
 | **风格调配工作站** | 本地工具可在一张 Engagement 风格卡上调配色阶、玻璃、砂纹与线条，并在风格卡和完整风格包之间回读。模型端到端调配和生产换肤入口仍待验收。 |
 
 [查看桌面集成说明](https://jhchen6393.github.io/ppt-center/dsh.html)
@@ -127,6 +129,8 @@ Agents make content and design decisions. The desktop host routes work between s
 
 ### Release status
 
-The showcase, sample decks, and offline player are public. The DSH desktop integration was validated on Windows with DSH 0.2.2-rc.3 and the matching 0.8.6 runtime. One page completed the live four-agent test and Studio round trip. The other page stopped at task binding. A public installer is pending validation on a clean machine. The local palette workstation supports editing and round-tripping Engagement styles. Model-led palette adjustment and production restyling are pending end-to-end validation.
+[Download the Windows beta and the full pipeline source](https://github.com/JHChen6393/ppt-center/releases/tag/v0.8.6-beta.1). Yexu-owned code is available under PolyForm Noncommercial 1.0.0.
+
+The showcase, sample decks, and offline player are public. The DSH desktop integration was validated on Windows with DSH 0.2.2-rc.3 and the matching 0.8.6 runtime. One page completed the live four-agent test and Studio round trip. The other page stopped at task binding. The public Windows beta ships with the runtime, a machine configuration template, and a setup script. Feedback from other machines is welcome. The local palette workstation supports editing and round-tripping Engagement styles. Model-led palette adjustment and production restyling are pending end-to-end validation.
 
 [Back to the top](#页序--yexu)
