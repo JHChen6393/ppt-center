@@ -14,8 +14,6 @@
 .receipt{background:#152e42;color:#f1f5f7;border-radius:5px;padding:24px}
 .receipt h2{margin:0 0 10px}
 .receipt p{color:#dce7ed;margin:0;line-height:1.6}
-.optional{color:var(--muted);font-size:12px;font-weight:400;margin-inline-start:4px}
-.payment-choice{margin-bottom:22px}
 .submit-row{display:flex;justify-content:flex-end}
 .submit-row button{cursor:pointer}
 .submit-row button:disabled{opacity:.66;cursor:wait}

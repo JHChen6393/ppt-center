@@ -4,7 +4,6 @@ const send = document.querySelector('#send');
 const pages = form.elements.pages;
 const feedback = document.querySelector('#feedback');
 const receipt = document.querySelector('#receipt');
-const methods = { wechat: '微信支付', alipay: '支付宝', paypal: 'PayPal' };
 const relay = '186cbfb12df14a5571eda8a9aa4ac7ec';
 const endpoint = 'https://formsubmit.co/ajax/' + relay;
 
@@ -23,7 +22,6 @@ form.addEventListener('submit', async (event) => {
   const order = {
     email: form.elements.email.value.trim(),
     total_pages: Number(pages.value),
-    preferred_payment: methods[form.elements.payment.value] ?? '',
     material,
   };
   const serialized = JSON.stringify(order);

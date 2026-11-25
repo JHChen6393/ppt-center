@@ -6,8 +6,8 @@
 <title>申请试用 · 页序</title>
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="../site.css">
-<link rel="stylesheet" href="order.css?v=2">
-<script src="order.js?v=2" defer></script>
+<link rel="stylesheet" href="order.css?v=3">
+<script src="order.js?v=3" defer></script>
 </head>
 <body>
 <header class="shell top"><a class="brand" href="../" aria-label="页序首页"><span class="mark" aria-hidden="true"></span>页序</a><span>演示试用</span></header>
@@ -20,15 +20,6 @@
 
 <div><label for="pages">总页数</label><select id="pages" name="pages" required aria-describedby="page-detail"></select><small id="page-detail">按成品总页数计算，含封面与目录（如有）。</small></div>
 <div><label for="email">联系邮箱</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="输入常用邮箱" required></div>
-</div>
-<div class="payment-choice">
-<label for="payment">偏好的付款方式 <span class="optional">选填</span></label>
-<select id="payment" name="payment">
-<option value="">请选择</option>
-<option value="wechat">微信支付</option>
-<option value="alipay">支付宝</option>
-<option value="paypal">PayPal</option>
-</select>
 </div>
 <div class="submit-row">
 <button class="primary" id="send" type="submit" disabled>提交申请 <span aria-hidden="true">↗</span></button>
