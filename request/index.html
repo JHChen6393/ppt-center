@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>申请试用 · 页序</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="order.css">
+<script src="order.js" defer></script>
+</head>
+<body>
+<header class="shell top"><a class="brand" href="../" aria-label="页序首页"><span class="mark" aria-hidden="true"></span>页序</a><span>演示试用</span></header>
+<main class="shell request">
+<section class="intro" aria-labelledby="request-title"><p class="label">网页演示流水线</p><h1 id="request-title">申请演示试用</h1><p class="lead">交一份材料，选一个页数。申请提交后，你会收到一个需求单号。</p></section>
+<form id="request-form">
+<label for="material">演示材料</label>
+<textarea id="material" name="material" placeholder="粘贴原始材料，也可以附上用途、听众和想强调的内容。" maxlength="18000" rows="8" required></textarea>
+<div class="fields">
+<div><label for="market">报价地区</label><select id="market" name="market"><option value="CN">国内 · 人民币</option><option value="INTL">海外 · 美元</option></select></div>
+<div><label for="pages">总页数</label><select id="pages" name="pages" required aria-describedby="page-detail"></select><small id="page-detail">按成品总页数计算，含封面与目录（如有）。</small></div>
+<div><label for="email">联系邮箱</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="输入接收成品的邮箱" required></div>
+</div>
+<div class="checkout">
+<div><p id="quote">正在加载报价</p><small id="timing"></small><small class="preview-note">提交试用申请，无需付款。</small></div>
+<button class="primary" id="send" type="submit" disabled>提交需求 <span aria-hidden="true">↗</span></button>
+</div>
+<p id="feedback" role="status"></p>
+<small class="order-privacy">材料和联系邮箱将通过 FormSubmit 转发给页序。请勿提交敏感或保密材料。</small>
+<div hidden><label for="company">公司网站</label><input id="company" name="company" tabindex="-1" autocomplete="off"></div>
+</form>
+<section class="receipt" id="receipt" tabindex="-1" hidden><h2>需求已提交</h2><p>需求单号</p><output id="reference"></output><button class="copy" id="copy" type="button">复制单号</button><p id="receipt-detail"></p><p id="copy-status" role="status"></p></section>
+</main>
+</body>
+</html>
