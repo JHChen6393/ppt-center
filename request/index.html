@@ -6,29 +6,48 @@
 <title>申请试用 · 页序</title>
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="../site.css">
-<link rel="stylesheet" href="order.css?v=3">
-<script src="order.js?v=3" defer></script>
+<link rel="stylesheet" href="order.css?v=4">
+<script src="order.js?v=4" defer></script>
 </head>
 <body>
-<header class="shell top"><a class="brand" href="../" aria-label="页序首页"><span class="mark" aria-hidden="true"></span>页序</a><span>演示试用</span></header>
+<header class="shell top">
+  <a id="home-link" class="brand" href="../" aria-label="页序首页"><span class="mark" aria-hidden="true"></span><span data-en="Yexu">页序</span></a>
+  <nav id="language-nav" class="locale-switch" aria-label="语言">
+    <a href="./" lang="zh-CN" hreflang="zh-CN" data-language="zh-CN" aria-current="page">中文</a>
+    <a href="?lang=en" lang="en" hreflang="en" data-language="en">English</a>
+  </nav>
+</header>
 <main class="shell request">
-<section class="intro" aria-labelledby="request-title"><p class="label">网页演示流水线</p><h1 id="request-title">申请演示试用</h1><p class="lead">把你想讲的内容发给我们。我们会先通过邮件发预览，想调整或获取可编辑成品，直接回信就好。</p></section>
-<form id="request-form">
-<label for="material">演示材料</label>
-<textarea id="material" name="material" placeholder="粘贴你想做成演示的内容，也可以说说是讲给谁听、想突出什么。" maxlength="18000" rows="8" required></textarea>
-<div class="fields">
-
-<div><label for="pages">总页数</label><select id="pages" name="pages" required aria-describedby="page-detail"></select><small id="page-detail">填写你期望的成品页数，含封面和目录（如有）。</small></div>
-<div><label for="email">联系邮箱</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="填写接收预览的邮箱" required></div>
-</div>
-<div class="submit-row">
-<button class="primary" id="send" type="submit" disabled>提交申请 <span aria-hidden="true">↗</span></button>
-</div>
-<p id="feedback" role="status"></p>
-<small class="order-privacy">请勿提交敏感或保密材料。申请通过 FormSubmit 转发。</small>
-<div hidden><label for="company">公司网站</label><input id="company" name="company" tabindex="-1" autocomplete="off"></div>
-</form>
-<section class="receipt" id="receipt" tabindex="-1" hidden><h2>申请已提交</h2><p>接下来请留意邮箱。预览会发到你填写的地址，想调整或获取成品可以直接回信。</p></section>
+  <section class="intro" aria-labelledby="request-title">
+    <p class="label" data-en="Web presentations">网页演示流水线</p>
+    <h1 id="request-title" data-en="Try Yexu">申请演示试用</h1>
+    <p class="lead" data-en="Send us what you want to present. We’ll email you a preview. Just reply if you’d like changes or an editable copy.">把你想讲的内容发给我们。我们会先通过邮件发预览，想调整或获取可编辑成品，直接回信就好。</p>
+  </section>
+  <form id="request-form">
+    <label for="material" data-en="Presentation material">演示材料</label>
+    <textarea id="material" name="material" placeholder="粘贴你想做成演示的内容，也可以说说是讲给谁听、想突出什么。" data-placeholder-en="Paste your material. If it helps, tell us who you’re presenting to and what to emphasize." maxlength="18000" rows="8" required></textarea>
+    <div class="fields">
+      <div>
+        <label for="pages" data-en="Slide count">总页数</label>
+        <select id="pages" name="pages" required aria-describedby="page-detail"></select>
+        <small id="page-detail" data-en="Include a cover or agenda slide if you’d like one.">填写你期望的成品页数，含封面和目录（如有）。</small>
+      </div>
+      <div>
+        <label for="email" data-en="Email address">联系邮箱</label>
+        <input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="填写接收预览的邮箱" data-placeholder-en="Where we’ll send your preview" required>
+      </div>
+    </div>
+    <div class="submit-row">
+      <button class="primary" id="send" type="submit" disabled><span data-en="Send request">提交申请</span> <span aria-hidden="true">↗</span></button>
+    </div>
+    <p id="feedback" role="status"></p>
+    <small class="order-privacy" data-en="Please leave out sensitive or confidential information. Requests are forwarded via FormSubmit.">请勿提交敏感或保密材料。申请通过 FormSubmit 转发。</small>
+    <div hidden><label for="company" data-en="Company website">公司网站</label><input id="company" name="company" tabindex="-1" autocomplete="off"></div>
+  </form>
+  <section class="receipt" id="receipt" tabindex="-1" hidden>
+    <h2 data-en="Request submitted">申请已提交</h2>
+    <p data-en="Look out for a preview at the email address you provided. You can reply with feedback or ask for an editable copy.">接下来请留意邮箱。预览会发到你填写的地址，想调整或获取成品可以直接回信。</p>
+  </section>
 </main>
 </body>
 </html>
