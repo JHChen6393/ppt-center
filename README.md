@@ -64,6 +64,8 @@ DSH 负责管理项目、批次状态和阶段交接。Agent 负责理解材料�
 
 ### 试用路径
 
+[申请演示试用](https://jhchen6393.github.io/ppt-center/request/?lang=zh)
+
 1. **在线翻页。** 从校园微气候观测的布点页切到结果页，看看矩阵、说明与总结区如何重新排布。示例材料为虚构数据。 [打开在线演示](https://jhchen6393.github.io/ppt-center/)
 2. **查看页面结构。** 下载 ZIP，在 PPT Studio 里打开项目，选中文字或卡片检查布局。 [下载 Studio 示例](https://jhchen6393.github.io/ppt-center/assets/engagement-demo.studio.zip)
 3. **离线放映。** 双击打开播放器，然后选择本地项目 ZIP。也可以直接打开已包含示例的单文件放映版。 [下载离线播放器](https://jhchen6393.github.io/ppt-center/assets/PPT-Studio-Player.html) · [单文件放映版](https://jhchen6393.github.io/ppt-center/assets/engagement-demo.deck.html)
@@ -116,6 +118,8 @@ Agents make content and design decisions. The desktop host routes work between s
 | **5 · Titles and navigation** | Once the content and running order are settled, add the cover, contents, section slides, and transitions for those pages. | Project-level navigation slides. |
 
 ### Try the sample
+
+[Visit the English website](https://jhchen6393.github.io/ppt-center/en.html) · [Request a trial](https://jhchen6393.github.io/ppt-center/request/?lang=en)
 
 1. Open the [English playback deck](https://jhchen6393.github.io/ppt-center/assets/yexu-engagement-en.deck.html) and advance from the sampling plan to the results. The example uses synthetic campus microclimate data and the Engagement liquid transition.
 2. Open the [editable project ZIP](https://jhchen6393.github.io/ppt-center/assets/yexu-engagement-en.studio.zip) in Studio to inspect the slide objects.
